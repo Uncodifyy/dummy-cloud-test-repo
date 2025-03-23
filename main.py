@@ -8,7 +8,7 @@ def read_root():
 
 @app.get("/test")
 def test_endpoint():
-    return {"message": "Test endpoint works!!"}
+    return {"message": "Test endpoint works 1!!"}
 
 @app.get("/greet/{name}")
 def greet_user(name: str):
