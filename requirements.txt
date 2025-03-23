@@ -1,1 +1,2 @@
-fastapi
+fastapi==0.95.0  # or another stable version
+uvicorn==0.22.0  # or the latest stable version
